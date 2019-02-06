@@ -12,7 +12,6 @@
                   <apex:inputField value = "{!lead.status}"/>
                      <apex:commandButton value="submit" action="{!save}"/>
                      <apex:commandButton value = "Do not submit" action = "{!cancel}"/>
-                     
              </apex:pageBlocksection>
          </apex:pageblock>
   </apex:form>
