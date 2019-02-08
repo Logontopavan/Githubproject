@@ -5,6 +5,7 @@
      <apex:pageBlock title="LeadInfo" >
        <apex:pageBlocksection columns="1">
          <apex:inputField value="{!lead.name}"/>
+         <apex:inputField value = "{Lead.BudgetAmount}"/>
             <apex:inputField value="{!lead.Title}"/> 
               <apex:inputField value="{!lead.Email}"/>
                 <apex:inputField value="{!lead.fax}"/>
