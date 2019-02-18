@@ -12,6 +12,7 @@
                 <apex:inputField value = "{!lead.BudgetAmount}"/>
                   <apex:inputField value="{!lead.phone}"/>
                      <apex:commandButton value="submit" action="{!save}"/>
+                     <apex:commandButton   value = "cancel" action = "{!Do not save}"/>
              </apex:pageBlocksection>
          </apex:pageblock>
   </apex:form>
