@@ -3,7 +3,6 @@
    <apex:sectionHeader title=" Subleads" rendered="true"/>
     <apex:form>
     <apex:pageBlock title = "MyLeads"/>
-     <apex:pageBlock title="LeadInfo" >
        <apex:pageBlocksection columns="1">
          <apex:inputField value="{!lead.name}"/>
             <apex:inputField value="{!lead.Title}"/> 
