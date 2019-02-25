@@ -1,7 +1,7 @@
 # Githubproject
 <apex:page standardcontroller="Lead" setup="true" showHeader="true"  >
    <apex:sectionHeader title=" Subleads" rendered="true"/>
-    <apex:form >
+    <apex:form>
      <apex:pageBlock title="LeadInfo" >
        <apex:pageBlocksection columns="1">
          <apex:inputField value="{!lead.name}"/>
