@@ -5,7 +5,7 @@
     <apex:pageBlock title = "MyLeads"/>
        <apex:pageBlocksection columns="2">
          <apex:inputField value="{!lead.name}"/>
-         <apex:inputField value = "{!lead.status}"/>
+            <apex:inputField value = "{!lead.status}"/>
              <apex:inputField value="{!lead.Title}"/> 
               <apex:inputField value="{!lead.Email}"/>
                 <apex:inputField value="{!lead.fax}"/>
