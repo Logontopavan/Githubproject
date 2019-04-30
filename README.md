@@ -12,6 +12,7 @@
                 <apex:inputField value = "{!lead.BudgetAmount}"/>
                   <apex:inputField value="{!lead.phone}"/>
                   <apex:inputField value = "{!lead.status}"/>
+                  <apex:outputfield value = {!Leas.Fax}
                      <apex:commandButton value="submit" action="{!save}"/>
                      <apex:commandButton values = "cancel" action = "{!Do not save}"/>
                      <apex:commadButton values = "Do not submit " action = "{!Do not insert}"/>
