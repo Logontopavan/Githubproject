@@ -4,6 +4,7 @@
     <apex:form>
     <apex:pageBlock title = "MyLeads"/>
        <apex:pageBlocksection columns="2">
+       <apex:inputField value = "{!lead.lastname}"/>
          <apex:inputField value="{!lead.name}"/>
          <apex:inputField value = "{!lead.status}"/>
             <apex:inputField value="{!lead.Title}"/> 
